@@ -1,0 +1,21 @@
+[build]
+    command = "npm rebuild @swc/core && npm install && npm run build"
+    publish = "dist"
+
+[build.environment]
+    NODE_VERSION = "20"
+
+[[headers]]
+    for = "/*.js"
+    [headers.values]
+        Content-Type = "application/javascript"
+
+[context.deploy-preview.environment]
+    VITE_APP_API_BASE_URL="https://dev1-gateway.mallcomm.co.uk"
+    VITE_APP_API_VERSION="v1.0"
+    VITE_USE_MOCKS="true"
+
+[context.production.environment]
+    VITE_APP_API_BASE_URL="https://dev1-gateway.mallcomm.co.uk"
+    VITE_APP_API_VERSION="v1.0"
+    VITE_USE_MOCKS="true"

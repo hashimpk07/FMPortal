@@ -1,0 +1,4 @@
+Invoice Type,Invoice Number,Contractor / Tenant,Amount,Date Issued,Due Date,Payment Status
+Issued,W-78596,Doe Inc.,5845660,25/10/24,25/12/24,Paid
+Issued,W-78546,Smith Inc.,324490,12/11/24,12/11/24,Unpaid
+Issued,W-58545,Doe T.,5845660,02/10/24,25/12/24,Paid

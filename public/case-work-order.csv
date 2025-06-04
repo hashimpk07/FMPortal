@@ -1,0 +1,11 @@
+id,caseId,title,datacreated,property,owner,priority,status
+1,ASC-7995,Elevator Inspection and Maintenance ,14/10/2024,Brown Center,Michael Brown,Low,In Progress
+2,AFC-8995,Plumbing Leak Repair in Office,18/10/2024,williams square,Michael Brown,High,Open
+3,AET-7905,System Outage: Email Server Down,1/10/2024,Brown Center,Michael Brown,Low,Completed
+4,ASC-7975,Plumbing Leak Repair in Office,14/07/2024,Brown Center,Sophia Williams,Low,Completed
+5,ASF-7995,Elevator Inspection and Maintenance,14/04/2024,Brown Center,Olivia Harris,High,In Progress
+6,AYC-7975,Elevator Inspection and Maintenance,14/05/2024,City Center,James Taylor,Low,Open
+7,BSC-7995,Plumbing Leak Repair in Office,04/07/2024,City Center,Charlotte King,Medium,In Progress
+8,ASC-7998,Plumbing Leak Repair in Office,04/08/2024,City Center,Ethan Scott,Medium,In Progress
+9,ASC-7795,System Outage,05/08/2024,City Center,Ethan Scott,Medium,In Progress
+10,ARC-7991,Electricity issue Maintenance,04/11/2024,Square Plaza,Amelia White,Low,Completed

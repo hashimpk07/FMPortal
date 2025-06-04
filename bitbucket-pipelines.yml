@@ -1,0 +1,12 @@
+image: mcr.microsoft.com/playwright:v1.37.0-jammy
+
+pipelines:
+    default:
+        - step:
+              name: 'Lint & Unit Tests'
+              script:
+                  - npm i
+                  - npm run lint
+                  - npm run test
+              artifacts:
+                  - unit-test-results/**
